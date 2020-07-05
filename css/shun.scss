@@ -251,6 +251,8 @@ html {
   }
   
   .question .head-text{
+    margin: 0 auto;
+    width: 90%;
     padding-top: 2%;
     font-size: 1.4rem;
   }
@@ -262,7 +264,7 @@ html {
     padding: 15px 15px 15px 85px;
     width: 72%;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     border-radius: 8px;
     background: url(../images/background-image.png) left 0px  center no-repeat #96d161;
     line-height: 1.6;
@@ -270,11 +272,11 @@ html {
   }
   
   .question .contents dd{
-    padding: 20px 0 20px 85px;
+    padding: 20px 25px 20px 85px;
     background: url(../images/answer.png) top 23px left 23px no-repeat;
     min-height: 60px;
     line-height: 2.0;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .footer .container {
     height: 100px;
