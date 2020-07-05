@@ -19,7 +19,7 @@ html {
 }
 
 .fee__main__fare {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .fee__main__fare h3 {
@@ -28,40 +28,69 @@ html {
   background-color: #96d161;
   line-height: 3.5;
   padding-left: 5%;
+  margin-bottom: 3%;
 }
 
 .fee__main__fare__details {
-  margin-top: 2%;
   padding: 0 3%;
 }
 
 .fee__main__fare__details__line {
+  margin-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.fee__main__fare__details__line p {
-  border: 4px solid #777777;
-  line-height: 4;
-  margin-top: 3%;
-  background-color: white;
-  font-size: 1.8rem;
   text-align: center;
+  height: 70px;
 }
 
-.fee__main__fare__details__line .fee_1 {
-  width: 20%;
-}
-
-.fee__main__fare__details__line .fee_2 {
-  width: 40%;
-  border-left: none;
+.fee__main__fare__details__line__part1 {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  border: 4px solid #777777;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-right: none;
 }
 
-.fee__main__fare__details__line .fee_3 {
+.fee__main__fare__details__line__part2 {
   width: 40%;
+  height: 100%;
+  text-align: center;
+  border: 4px solid #777777;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: none;
+}
+
+.fee__main__fare__details__line__part3 {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  border: 4px solid #777777;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fee__main__fare__details__line p {
+  width: 100%;
+  font-size: 1.8rem;
 }
 
 .fee__main__fare ul {
