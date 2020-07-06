@@ -66,6 +66,7 @@ html {
 }
 
 h1 {
+  width: 85%;
   font-family: 筑紫B丸ゴシック;
   background: linear-gradient(transparent 60%, #ffff66 80%);
 }
@@ -208,14 +209,21 @@ h1 {
   background-color: rgba(255, 255, 255, .8); 
   color: #FFFFFF; 
   font-size: 1.6rem;
+  z-index: 100;
   }
 
-  .footer-box {
-    margin: -10px auto;
-    width: 20%;
-    height: 100px;
-    background-color: #ffb066;
-  }
-  .footer-box__tel {
-    text-align: center;
-  }
+.footer-box {
+  margin: -10px auto;
+  width: 20%;
+  height: 100px;
+  background-color: #ffb066;
+}
+.footer-box__tel {
+  text-align: center;
+}
+
+
+
+.res-gentle {
+  display: none;
+}

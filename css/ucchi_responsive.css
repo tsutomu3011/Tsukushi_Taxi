@@ -1,3 +1,18 @@
+@media screen and (max-width: 1650px) {
+  .top-promise h1 {
+    /* font-size: 5rem; */
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .top-promise h1 {
+    /* font-size: 4rem; */
+  }
+}
+
+
+
+
 
 /* モバイル向けレイアウト */
 
@@ -37,9 +52,9 @@
   }
 
   .top-promise {
-    width: 60%;
+    width: 80%;
     top: 80%;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
 
@@ -59,7 +74,7 @@
   .promise-sub {
     width: 10%;
     margin-left: 35%;
-    margin-top: 20%;
+    margin-top: 16%;
     line-height: 1.8;
     font-size: 0.6rem;
     z-index: 10;
@@ -73,7 +88,7 @@
   .promise-green {
     width: 150%;
     height: 20%;
-    margin-top: 70%;
+    margin-top: 60%;
     margin-left: -40%;
     font-size: 0.8rem;
   }
@@ -87,7 +102,7 @@
     width: 185px;
     height: 100px;
     margin-top: 20%;
-    left: -10%;
+    left: -5%;
   }
 
   .promise-img img {
@@ -100,25 +115,25 @@
   /* お客様の声 */
 
   .family-wrapper {
-    height: 450px;
+    height: 340px;
   }
 
   .family-voice {
-    width: 30%;
-    top: 67%;
-    left: 53%;
+    width: 50%;
+    top: 65%;
+    left: 50%;
   }
 
   .family-voice__text {
-    width: 85%;
-    left: 75%;
-    top: 35%;
+    width: 50%;
+    left: 40%;
+    top: 40%;
     font-size: 0.8rem;
   }
 
   .family-voice__text__img {
-    width: 140%;
-    height: 50px;
+    width: 150px;
+    height: 60px;
   }
 
   .family-img {
@@ -132,10 +147,10 @@
   }
 
   .family-ellipse {
-    width: 15%;
+    width: 20%;
     height: 3%;
-    top: 71%;
-    left: 79%;
+    top: 70%;
+    left: 77%;
   }
 
   .family-ellipse__voice {
@@ -152,6 +167,7 @@
   }
 
   .family-text-voice {
+    font-size: 0.8rem;
     padding: 0 3% 0 20%;
   }
 
@@ -160,7 +176,7 @@
 
   .footer {
     width: 95%;
-    height: 17%;
+    height: 3.3%;
     }
 
     .footer-box {
@@ -168,5 +184,12 @@
       height: 45px;
     }
 
+
+    .PC-gentle {
+      display: none;
+    }
+    .res-gentle {
+      display: inline-block;
+    }
 
 }
