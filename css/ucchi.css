@@ -159,13 +159,12 @@ h1 {
 .family-voice__text {
   position: absolute;
   left: 43%;
-  top: 40%;
+  top: 0%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   color:#fff;
   font-size: 2.2rem;
-  text-shadow:1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
 }
 
 .family-voice__text__img {
