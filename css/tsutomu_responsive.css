@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=tsutomu_responsive.css.map */
+@media screen and (max-width: 1600px) {
+  .scene__below p {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .scene__below p {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .fee {
+    padding: 12% 1% 18%;
+  }
+  .fee__above__title img:nth-of-type(1) {
+    width: 85%;
+  }
+  .fee__above__title img:nth-of-type(2) {
+    width: 20%;
+  }
+  .fee__above p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .fee__main__fare {
+    margin-top: 13%;
+  }
+  .fee__main__fare h3 {
+    font-size: 1.7rem;
+    line-height: 2.5;
+    text-align: center;
+    padding-left: 0;
+  }
+  .fee__main__fare__details {
+    padding: 0 1%;
+  }
+  .fee__main__fare__details__line {
+    height: 50px;
+    margin-top: 5%;
+  }
+  .fee__main__fare__details__line__part1 {
+    border: 1px solid #777777;
+    height: 100%;
+    border-right: none;
+    padding: 0 1%;
+  }
+  .fee__main__fare__details__line__part2 {
+    border: 1px solid #777777;
+    height: 100%;
+    border-right: none;
+    padding: 0 1%;
+  }
+  .fee__main__fare__details__line__part3 {
+    border: 1px solid #777777;
+    height: 100%;
+    padding: 0 1%;
+  }
+  .fee__main__fare__details__line p {
+    font-size: 9px;
+  }
+  .fee__main__fare ul {
+    margin-top: 6%;
+    padding: 0 3%;
+  }
+  .fee__main__fare ul li {
+    font-size: 1.1rem;
+  }
+  .scene {
+    padding: 12% 3% 15%;
+  }
+  .scene__above img {
+    width: 95%;
+  }
+  .scene__above h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+  .scene__above h2 span {
+    font-size: 2rem;
+  }
+  .scene__middle {
+    display: block;
+  }
+  .scene__middle__picture {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .scene__middle__picture img {
+    width: 65%;
+  }
+  .scene__middle__picture p {
+    font-size: 2.2rem;
+  }
+  .scene__below {
+    margin-top: 15%;
+    width: 98%;
+  }
+  .scene__below p {
+    width: 95%;
+    font-size: 1.6rem;
+  }
+  .scene__below ul {
+    margin: 6% 0 0 5%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  .feature {
+    padding-top: 10%;
+  }
+  .feature__above img:nth-of-type(1) {
+    width: 85%;
+  }
+  .feature__above img:nth-of-type(2) {
+    width: 20%;
+  }
+  .feature__main {
+    height: 550px;
+    background-position: center;
+    padding: 10% 5% 15%;
+  }
+  .feature__main__boxs {
+    display: block;
+  }
+  .feature__main__boxs__box {
+    margin-top: 5%;
+    height: 35%;
+    width: 95%;
+    border-radius: 25px;
+  }
+  .feature__main__boxs__box h3 {
+    font-size: 1.5rem;
+  }
+  .feature__main__boxs__box p {
+    font-size: 1rem;
+    margin-top: 3%;
+  }
+}
+/*# sourceMappingURL=tsutomu_responsive.css.map */
