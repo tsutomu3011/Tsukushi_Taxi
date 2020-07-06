@@ -221,4 +221,84 @@ html {
   line-height: 2;
   margin-top: 7%;
 }
+
+.family1 {
+  padding-top: 5%;
+  background-color: #F8F6EA;
+}
+
+.family1__above {
+  text-align: center;
+}
+
+.family1__below {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.family1__below__left {
+  width: 65%;
+}
+
+.family1__below__right {
+  width: 35%;
+  padding-right: 5%;
+}
+
+.family1__below__right__1 {
+  position: relative;
+}
+
+.family1__below__right__1__hukidashi {
+  width: 100%;
+  position: relative;
+}
+
+.family1__below__right__1__hukidashi__text p {
+  color: white;
+  font-size: 2rem;
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.family1__below__right__1 .family-ellipse1 {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  border: 1px solid #000;
+  background-color: #34C4EF;
+  border-radius: 50%;
+  width: 25%;
+  height: 70px;
+}
+
+.family1__below__right__1 .family-ellipse1__box {
+  height: 100%;
+  position: relative;
+}
+
+.family1__below__right__1 .family-ellipse1__box p {
+  font-size: 1.3rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.family1__below__right .text222 {
+  font-size: 2rem;
+  line-height: 3;
+  margin-top: 15%;
+}
 /*# sourceMappingURL=tsutomu.css.map */

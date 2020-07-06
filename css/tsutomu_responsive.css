@@ -138,5 +138,37 @@
     font-size: 1rem;
     margin-top: 3%;
   }
+  .family1__below {
+    display: block;
+    padding: 0 5% 10%;
+  }
+  .family1__below__left {
+    width: 100%;
+    text-align: center;
+  }
+  .family1__below__left img {
+    width: 90%;
+  }
+  .family1__below__right {
+    width: 100%;
+  }
+  .family1__below__right__1__hukidashi__text img {
+    display: none;
+  }
+  .family1__below__right__1__hukidashi__text p {
+    display: none;
+    font-size: 1rem;
+  }
+  .family1__below__right__1 .family-ellipse1 {
+    display: none;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 1rem;
+  }
+  .family1__below__right .text222 {
+    margin-top: 8%;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
 }
 /*# sourceMappingURL=tsutomu_responsive.css.map */

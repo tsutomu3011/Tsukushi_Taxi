@@ -187,3 +187,79 @@ html {
     }
   }
 }
+
+
+
+
+.family1 {
+  padding-top: 5%;
+  background-color: #F8F6EA;
+  &__above {
+    text-align: center;
+    img {
+
+    }
+  }
+  &__below {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+      width: 65%;
+    }
+    &__right {
+      width: 35%;
+      padding-right: 5%;
+      &__1 {
+        position: relative;
+        &__hukidashi {
+          width: 100%;
+          position: relative;
+          &__text {
+            img {
+              
+            }
+            p {
+              color: white;
+              font-size: 2rem;
+              z-index: 100;
+              position: absolute;
+              left: 50%;
+              top: 45%;
+              transform: translate(-50%, -50%);
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+            }
+          }
+        }
+        .family-ellipse1 {
+          position: absolute;
+          right: 0;
+          bottom: 15%;
+          border: 1px solid #000;
+          background-color: #34C4EF;
+          border-radius: 50%;
+          width: 25%;
+          height: 70px;
+          &__box {
+            height: 100%;
+            position: relative;
+            p {
+              font-size: 1.3rem;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+            }
+          }
+        }
+      }
+      .text222 {
+        font-size: 2rem;
+        line-height: 3;
+        margin-top: 15%;
+      }
+    }
+  }
+}
