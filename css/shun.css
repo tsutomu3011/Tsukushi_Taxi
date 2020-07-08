@@ -100,11 +100,11 @@ html {
     line-height: 2.0;
     font-size: 2.0rem;
   }
-  footer .container {
+  .footer .container {
     height: 250px;
     background-color: #F8F6EA;
   }
-  footer .container small {
+  .footer .container small {
     font-size: 1.2rem;
     position: relative;
     left: 1%;
@@ -225,15 +225,15 @@ html {
     line-height: 2.0;
     font-size: 1.5rem;
   }
-  footer .container {
+  .footer .container {
     height: 100px;
     background-color: #F8F6EA;
   }
-  footer .container small {
+  .footer .container small {
     font-size: 1.2rem;
     position: relative;
     left: 1%;
-    top: 35%;
+    top: 40%;
   }
 }
 /*# sourceMappingURL=shun.css.map */
