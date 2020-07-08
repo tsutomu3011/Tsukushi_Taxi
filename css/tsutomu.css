@@ -273,11 +273,12 @@ html {
 .family1__below__right__1 .family-ellipse1 {
   position: absolute;
   right: 0;
-  bottom: 15%;
+  bottom: 10%;
   border: 1px solid #000;
   background-color: #34C4EF;
+  color: #fff;
   border-radius: 50%;
-  width: 25%;
+  width: 30%;
   height: 70px;
 }
 

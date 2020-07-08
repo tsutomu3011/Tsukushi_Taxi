@@ -1,6 +1,6 @@
 @media screen and (max-width: 1650px) {
   .top-promise h1 {
-    /* font-size: 5rem; */
+    /* font-size: 5.5rem; */
   }
 }
 
@@ -175,14 +175,19 @@
   /* 可変式フッター */
 
   .footer {
-    width: 95%;
-    height: 3.3%;
+    height: 20%;
+    font-size: 1.6rem;
+    }
+
+    .footer-wrapper {
+      width: 60%;
     }
 
     .footer-box {
-      width: 50%;
-      height: 45px;
+      width: 90%;
+      height: 40px;
     }
+    
 
 
     .PC-gentle {

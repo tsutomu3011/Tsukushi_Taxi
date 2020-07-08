@@ -61,7 +61,7 @@ html {
   position: absolute;
   top: 80%;
   margin-left: 2%;
-  width: 67%;
+  width: 1000px;
   font-size: 6rem;
 }
 
@@ -203,23 +203,75 @@ h1 {
   bottom: 0; 
   left: 0; 
   width: 100%; 
-  height: 5%; 
-  padding:10px; 
+  height: 8%; 
+  padding: 10px 10px 20px;
   background-color: rgba(255, 255, 255, .8); 
   color: #FFFFFF; 
-  font-size: 1.6rem;
+  font-size: 2.3rem;
   z-index: 100;
   }
 
+.footer-wrapper {
+  margin: 0 auto;
+  width: 30%;
+}
+
 .footer-box {
-  margin: -10px auto;
-  width: 20%;
-  height: 100px;
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height: 50px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 3px;
   background-color: #ffb066;
 }
+
+.footer-box:hover {
+  opacity: 0.7;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+.btn-pagetop {
+  position: absolute;
+  right: 55px;
+  top: -55px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #34C4EF;
+}
+
+.icon-up {
+  font-size: 4.2rem;
+  padding: 0 9px;
+}
+
+.icon-square {
+  margin-top: 10px;
+}
+
 .footer-box__tel {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 
 
