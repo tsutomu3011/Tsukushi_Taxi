@@ -4,10 +4,6 @@ html {
   font-size: 62.5%;
 }
 
-/* .top-wrapper {
-
-} */
-
 .top-image {
   width: 100%;
   position: relative;
@@ -84,22 +80,15 @@ h1 {
 }
 
 
-
-/* .promise-wrapper img:nth-of-type(1){
-  float: right;
-
-} */
-
 .promise-title {
   width: 30%;
-  /* height: 20%; */
   margin-top: 5%;
   margin-left: 15%;
 }
 
 .promise-sub {
   position: relative;
-  margin-top: 10%;
+  margin-top: 12%;
   width: 80%;
   font-size: 1.8rem; 
   line-height: 5.4rem;
@@ -111,10 +100,11 @@ h1 {
 }
 
 .promise-green {
-  background-color: #96D161;
+  background-color: #34C4EF;
+  /* background-color: #96D161; */
   width: 35%;
   font-size: 1.8rem;
-  margin-top: 27%;
+  margin-top: 26%;
   margin-bottom: 5%;
   margin-left: -110%;
   color: #fff;
@@ -228,8 +218,11 @@ h1 {
   background-color: #ffb066;
 }
 
-.footer-box:hover {
+.footer-box:hover  {
   opacity: 0.7;
+}
+
+.footer-box:active {
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
 }
