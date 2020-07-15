@@ -184,6 +184,11 @@ html {
           font-size: 1.8rem;
           line-height: 2;
           margin-top: 7%;
+          span {
+            color: #ff8c00;
+            font-weight: bold;
+            border-bottom: 1px solid #ff8c00;
+          }
         }
       }
     }

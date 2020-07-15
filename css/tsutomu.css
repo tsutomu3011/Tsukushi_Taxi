@@ -224,6 +224,12 @@ html {
   margin-top: 7%;
 }
 
+.feature__main__boxs__box p span {
+  color: #ff8c00;
+  font-weight: bold;
+  border-bottom: 1px solid #ff8c00;
+}
+
 .family1 {
   padding-top: 5%;
   background-color: #F8F6EA;
