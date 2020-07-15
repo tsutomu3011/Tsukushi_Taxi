@@ -25,7 +25,7 @@ html {
 .fee__main__fare h3 {
   font-size: 2.5rem;
   color: white;
-  background-color: #008002;
+  background-color: #96d161;
   line-height: 3.5;
   padding-left: 5%;
   margin-bottom: 3%;
@@ -153,6 +153,8 @@ html {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .scene__below {
@@ -334,14 +336,12 @@ table th {
 }
 
 table thead tr {
-  background-color: #76db73;
-  background-color: #c79fd9;
+  background-color: #99ccff;
   color: #fff;
 }
 
 table tbody th {
-  background-color: #76db73;
-  background-color: #c79fd9;
+  background-color: #99ccff;
   font-weight: bold;
   color: #fff;
 }
@@ -361,15 +361,16 @@ table tbody th {
   width: 20%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   table {
     border: 0;
-    width: 100%;
+    width: 95%;
   }
   table th {
     background-color: #167F92;
     display: block;
     border-right: none;
+    padding: 0;
   }
   table thead {
     border: none;
@@ -384,15 +385,16 @@ table tbody th {
   table tr {
     display: block;
     margin-bottom: .625em;
+    padding: 0;
   }
   table td {
     border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
     display: block;
     font-size: .8em;
     text-align: right;
     position: relative;
     padding: .625em .625em .625em 4em;
-    border-right: none;
   }
   table td::before {
     content: attr(data-label);
