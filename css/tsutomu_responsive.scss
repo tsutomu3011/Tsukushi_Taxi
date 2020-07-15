@@ -5,10 +5,88 @@
 }
 
 @media screen and (max-width: 1350px) {
-  .scene__below p {
+  .scene__above h2 {
     font-size: 2.5rem;
+    span {
+      font-size: 3rem;
+    }
+  }
+
+  .scene__middle p {
+    font-size: 2rem;
+  }
+
+
+  .scene__below p {
+    font-size: 2.2rem;
+  }
+
+  .feature__main__boxs__box {
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
   }
 }
+
+
+@media screen and (max-width: 1000px) {
+  .scene__above h2 {
+    font-size: 1.5rem;
+    span {
+      font-size: 1.9rem;
+    }
+  }
+  
+  .scene__middle p {
+    font-size: 1.7rem;
+  }
+
+  .scene__below {
+    p {
+      font-size: 2rem;
+    }
+    ul {
+      font-size: 1.5rem;
+    }
+  }
+
+  .feature__main__boxs__box {
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+}
+
+@media screen and (max-width: 880px) {
+  .scene__below {
+    p {
+      font-size: 1.5rem;
+    }
+    ul {
+      font-size: 1.2rem;
+    }
+  }
+
+  .feature__main__boxs__box {
+    h3 {
+      margin-top: 10%;
+      font-size: 1.4rem;
+    }
+    p {
+      margin-top: 10%;
+      font-size: 1rem;
+    }
+  }
+}
+
+
 
 
 @media screen and (max-width: 670px) {
@@ -37,9 +115,10 @@
         margin-top: 13%;
         h3 {
           font-size: 1.7rem;
-          line-height: 2.5;
+          line-height: 3;
           text-align: center;
           padding-left: 0;
+          font-weight: bold;
         }
         &__details {
           
@@ -150,6 +229,7 @@
           width: 95%;
           border-radius: 25px;
           h3 {
+            margin-top: 0;
             font-size: 1.5rem;
           }
           p {

@@ -30,7 +30,7 @@ html {
       h3 {
         font-size: 2.5rem;
         color: white;
-        background-color:rgb(150, 209, 97);
+        background-color: rgb(150, 209, 97);
         line-height: 3.5;
         padding-left: 5%;
         margin-bottom: 3%;
@@ -127,6 +127,8 @@ html {
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
       }
     }
   }
@@ -170,7 +172,7 @@ html {
       &__box {
         width: 40%;
         height: 60%;
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.6);
         border-radius: 70px;
         padding: 3%;
         h3 {
@@ -182,6 +184,11 @@ html {
           font-size: 1.8rem;
           line-height: 2;
           margin-top: 7%;
+          span {
+            color: #ff8c00;
+            font-weight: bold;
+            border-bottom: 1px solid #ff8c00;
+          }
         }
       }
     }
@@ -262,5 +269,108 @@ html {
         margin-top: 15%;
       }
     }
+  }
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: white;
+  padding: .35em;
+  border-bottom: 1px solid #777777;
+  th {
+    border: 1px solid #777777;
+  }
+}
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 1px solid #777777;
+  text-align: center;
+}
+table th {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+table thead tr{
+  background-color: #99ccff;
+  color:#fff;
+}
+table tbody th {
+  background-color: #99ccff;
+  font-weight: bold;
+  color: #fff;
+}
+.txt{
+  font-size: 1.4rem;
+}
+.price{
+  color: #167F92;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.non{
+  background:rgb(232, 252, 213);
+  width: 20%;
+}
+
+
+@media screen and (max-width: 670px) {
+  table {
+    border: 0;
+    width:95%
+  }
+  table th{
+    background-color: #167F92;
+    display: block;
+    border-right: none;
+    padding: 0;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+    padding: 0;
+  }
+  table td {
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: .625em .625em .625em 4em;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    color: #167F92;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table tbody th {
+    color: #fff;
   }
 }
