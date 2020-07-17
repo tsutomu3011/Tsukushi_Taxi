@@ -4,6 +4,10 @@ html {
   font-size: 62.5%;
 }
 
+.top-wrapper {
+  width: 100%;
+}
+
 .top-image {
   width: 100%;
   position: relative;
@@ -30,6 +34,7 @@ html {
 }
 
 .top-ellipse__img {
+  width: 70%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -48,7 +53,7 @@ html {
 }
 
 .top-target__sub {
-  width: 50%;
+  width: 70%;
   font-family: 筑紫B丸ゴシック;
 }
 
@@ -81,9 +86,13 @@ h1 {
 
 
 .promise-title {
-  width: 30%;
+  width: 80%;
   margin-top: 5%;
-  margin-left: 15%;
+  margin-left: 10%;
+}
+
+.promise-title img {
+  width: 100%;
 }
 
 .promise-sub {
@@ -92,31 +101,43 @@ h1 {
   width: 80%;
   font-size: 1.8rem; 
   line-height: 5.4rem;
-  left: -30%;
+  left: -45%;
 }
 
 .promise-sub__content {
   width: 520px;
 }
 
+.red {
+  color: red;
+}
+
 .promise-green {
   background-color: #34C4EF;
   /* background-color: #96D161; */
-  width: 35%;
-  font-size: 1.8rem;
+  width:70%;
+  font-size: 2.8rem;
   margin-top: 26%;
   margin-bottom: 5%;
-  margin-left: -110%;
+  margin-left: -100%;
   color: #fff;
 }
 
 .promise-green__box {
+  display: block;
+  width: 100%;
   text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px;
 }
 
 .promise-img {
-  position: relative;
-  left: 10%;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.promise-img img{
+  width: 70%;
 }
 
 
