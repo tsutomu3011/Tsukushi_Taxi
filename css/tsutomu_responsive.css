@@ -5,8 +5,95 @@
 }
 
 @media screen and (max-width: 1350px) {
-  .scene__below p {
+  .scene__above h2 {
     font-size: 2.5rem;
+  }
+  .scene__above h2 span {
+    font-size: 3rem;
+  }
+  .scene__middle p {
+    font-size: 2rem;
+  }
+  .scene__below p {
+    font-size: 2.2rem;
+  }
+  .feature__main__boxs__box h3 {
+    font-size: 2rem;
+  }
+  .feature__main__boxs__box p {
+    font-size: 1.5rem;
+  }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.6rem;
+  }
+  .family1__below__right__1 .family-ellipse1 {
+    width: 40%;
+    top: 40%;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .scene__above h2 {
+    font-size: 1.5rem;
+  }
+  .scene__above h2 span {
+    font-size: 1.9rem;
+  }
+  .scene__middle p {
+    font-size: 1.7rem;
+  }
+  .scene__below p {
+    font-size: 2rem;
+  }
+  .scene__below ul {
+    font-size: 1.5rem;
+  }
+  .feature__main__boxs__box h3 {
+    font-size: 2rem;
+  }
+  .feature__main__boxs__box p {
+    font-size: 1.2rem;
+  }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.4rem;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 1rem;
+  }
+  .family1__below__right .text222 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .scene__below p {
+    font-size: 1.5rem;
+  }
+  .scene__below ul {
+    font-size: 1.2rem;
+  }
+  .feature__main__boxs__box h3 {
+    margin-top: 10%;
+    font-size: 1.4rem;
+  }
+  .feature__main__boxs__box p {
+    margin-top: 10%;
+    font-size: 1rem;
+  }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.2rem;
+  }
+  .family1__below__right__1 .family-ellipse1 {
+    width: 45%;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 0.8rem;
+  }
+  .family1__below__right .text222 {
+    font-size: 1.4rem;
   }
 }
 
@@ -29,9 +116,10 @@
   }
   .fee__main__fare h3 {
     font-size: 1.7rem;
-    line-height: 2.5;
+    line-height: 3;
     text-align: center;
     padding-left: 0;
+    font-weight: bold;
   }
   .fee__main__fare__details {
     padding: 0 1%;
@@ -132,6 +220,7 @@
     border-radius: 25px;
   }
   .feature__main__boxs__box h3 {
+    margin-top: 0;
     font-size: 1.5rem;
   }
   .feature__main__boxs__box p {

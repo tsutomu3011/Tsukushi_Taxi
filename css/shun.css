@@ -2,6 +2,7 @@ html {
   font-size: 62.5%;
 }
 
+
 .flow-of-use .head-img {
   padding-top: 5%;
   text-align: center;
@@ -150,6 +151,115 @@ footer .container small {
   position: relative;
   left: 1%;
   top: 40%;
+
+@media screen and (min-width: 767px) {
+  .flow-of-use .head-img {
+    padding-top: 5%;
+    text-align: center;
+  }
+  .flow-of-use .content1, .content2, .content3, .content4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: solid 3px #8dbc62;
+    border-radius: 1em;
+    margin: 5% 17%;
+    padding: 3%;
+  }
+  .flow-of-use .content-text {
+    margin-left: 2%;
+  }
+  .flow-of-use .content-text p {
+    font-size: 1.8rem;
+  }
+  .flow-of-use .content-text .change {
+    font-size: 2.3rem;
+    border-bottom: solid 1px #000000;
+  }
+  .information-vehicle .container {
+    background-color: #F8F6EC;
+  }
+  .information-vehicle .head-img {
+    padding-top: 5%;
+    text-align: center;
+  }
+  .information-vehicle .contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5% 10% 5% 17%;
+  }
+  .information-vehicle .content-left p {
+    font-size: 1.8rem;
+  }
+  .top-text {
+    border: 0;
+    padding: 15px 30px;
+    margin-bottom: 25px;
+    background: #f08cb8;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 23px;
+  }
+  .content-right {
+    margin-left: 7%;
+    margin-top: 0.2%;
+  }
+  .top-text h3 {
+    font-size: 1.8rem;
+  }
+  .content-right .content-text {
+    font-size: 1.8rem;
+  }
+  .content-left {
+    text-align: center;
+  }
+  .question .container {
+    background-color: #E8FCD5;
+  }
+  .question .head-img {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .question .contents {
+    margin: 0 auto;
+  }
+  .question .head-text {
+    padding-top: 2%;
+    font-size: 1.8rem;
+  }
+  .question .contents dl {
+    padding-left: 12%;
+  }
+  .question .contents dt {
+    padding: 15px 15px 15px 120px;
+    width: 75%;
+    color: #fff;
+    font-size: 2.0rem;
+    border-radius: 8px;
+    background: url(../images/background-image.png) left 23px center no-repeat #96d161;
+    line-height: 1.6;
+    outline: none;
+  }
+  .question .contents dd {
+    padding: 20px 0 20px 120px;
+    background: url(../images/answer.png) top 23px left 47px no-repeat;
+    min-height: 60px;
+    line-height: 2.0;
+    font-size: 2.0rem;
+  }
+  footer .container {
+    height: 250px;
+    background-color: #F8F6EA;
+  }
+  footer .container small {
+    font-size: 1.2rem;
+    position: relative;
+    left: 1%;
+    top: 40%;
+  }
+
 }
 
 @media screen and (max-width: 670px) {
