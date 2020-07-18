@@ -98,26 +98,26 @@ h1 {
 .promise-sub {
   position: relative;
   margin-top: 12%;
-  width: 80%;
+  width: 100%;
   font-size: 1.8rem; 
   line-height: 5.4rem;
   left: -45%;
 }
 
 .promise-sub__content {
-  width: 520px;
+  width: 115%;
 }
 
 .red {
-  color: red;
+  color: #FF0000;
 }
 
 .promise-green {
   background-color: #34C4EF;
   /* background-color: #96D161; */
-  width:70%;
-  font-size: 2.8rem;
-  margin-top: 26%;
+  width:100%;
+  font-size: 2.5rem;
+  margin-top: 28%;
   margin-bottom: 5%;
   margin-left: -100%;
   color: #fff;
@@ -132,12 +132,12 @@ h1 {
 }
 
 .promise-img {
-  width: 50%;
+  width: 60%;
   margin-left: 5%;
 }
 
 .promise-img img{
-  width: 70%;
+  width: 80%;
 }
 
 

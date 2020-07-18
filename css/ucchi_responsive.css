@@ -1,12 +1,13 @@
-@media screen and (max-width: 1650px) {
-  .top-promise h1 {
-    /* font-size: 5.5rem; */
-  }
-}
+
 
 @media screen and (max-width: 1600px) {
   .top-target {
     font-size: 3.5rem;
+  }
+
+  .top-promise{
+    width: 860px;
+    font-size: 5rem;
   }
 
   .promise-green {
@@ -23,21 +24,12 @@
     width: 830px;
   }
 
-  .promise-title__logo {
-    margin-left: -15%;
-  }
-
-  .promise-green {
-    margin-top: 30%;
-    font-size: 2rem;
-  }
-
   .top-target {
     font-size: 3.2rem;
   }
 
-  .promise-img {
-    left: 15%;
+  .promise-green {
+    font-size: 2.2rem;
   }
 
   .footer-box {
@@ -60,12 +52,12 @@
     font-size: 1.6rem;
   }
 
-  .promise-title__logo {
-    margin-left: -25%;
+  .promise-img img {
+    width: 100%;
   }
 
-  .promise-img {
-    left: 5%;
+  .footer-wrapper {
+    width: 40%;
   }
 
 }
@@ -75,18 +67,30 @@
     font-size: 2.5rem;
   }
 
-  h1 {
-
+  .top-promise {
+    width: 590px;
+    font-size: 3.5rem;
   }
+
+  
+
+  .promise-sub__content {
+    width: 155%;
+    font-size: 1.4rem;
+}
 
   .promise-green {
-    margin-top: 35%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
-  .promise-green__box {
-    padding: 30px 0 5px;
+  .footer-wrapper {
+    width: 40%;
   }
+
+  .footer-box {
+    width: 100%;
+  }
+
 }
 
 /* モバイル向けレイアウト */
@@ -122,6 +126,10 @@
     top: 55%;
   }
 
+  .top-promise {
+    font-size: 3rem;
+  }
+
   .top-target__sub {
     width: 70%;
   }
@@ -151,20 +159,21 @@
     left: 5%;
     margin-top: 16%;
     line-height: 1.8;
-    font-size: 0.6rem;
+
     z-index: 10;
   }
 
   .promise-sub__content {
     width: 280px;
+    font-size: 1rem;
     padding: 50% 0 0 0;
   }
 
   .promise-green {
     width: 150%;
     height: 20%;
-    margin-top: 60%;
-    margin-left: -40%;
+    margin-top: 55%;
+    margin-left: -5%;
     font-size: 0.8rem;
   }
 
@@ -176,12 +185,13 @@
   .promise-img {
     width: 185px;
     height: 100px;
-    margin-top: 20%;
-    left: -5%;
+    margin-top: 15%;
+    margin-left: -18%;
+    margin-right: 3%;
   }
 
   .promise-img img {
-    width: 140%;
+    width: 150%;
 
   }
 
@@ -252,6 +262,10 @@
   .footer {
     /* height: 5%; */
     font-size: 1.6rem;
+    }
+
+    .btn-pagetop {
+      right: 1%;
     }
 
     .footer-wrapper {
