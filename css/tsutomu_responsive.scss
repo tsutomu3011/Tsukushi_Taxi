@@ -29,6 +29,12 @@
       font-size: 1.5rem;
     }
   }
+
+  .family1__below__right__1__hukidashi__text {
+    p {
+      font-size: 1.7rem;
+    }
+  }
 }
 
 
@@ -61,6 +67,20 @@
       font-size: 1.2rem;
     }
   }
+
+  .family1__below__right__1__hukidashi__text {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .family-ellipse1 {
+    display: none;
+  }
+
+  .family-ellipse1__box {
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 880px) {
@@ -82,6 +102,16 @@
       margin-top: 10%;
       font-size: 1rem;
     }
+  }
+
+  .family1__below__right__1__hukidashi__text {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .family-ellipse1 {
+    display: none;
   }
 }
 
@@ -281,12 +311,6 @@
           }
           .family-ellipse1 {
             display: none;
-            &__box {
-
-              p {
-                font-size: 1rem;
-              }
-            }
           }
         }
         .text222 {
