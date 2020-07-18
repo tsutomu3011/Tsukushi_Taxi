@@ -203,9 +203,6 @@ html {
   background-color: #F8F6EA;
   &__above {
     text-align: center;
-    img {
-
-    }
   }
   &__below {
     display: flex;
@@ -222,9 +219,6 @@ html {
           width: 100%;
           position: relative;
           &__text {
-            img {
-              
-            }
             p {
               color: white;
               font-size: 2rem;
