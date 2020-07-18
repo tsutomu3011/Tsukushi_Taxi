@@ -23,6 +23,16 @@
   .feature__main__boxs__box p {
     font-size: 1.5rem;
   }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.6rem;
+  }
+  .family1__below__right__1 .family-ellipse1 {
+    width: 40%;
+    top: 40%;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -47,6 +57,15 @@
   .feature__main__boxs__box p {
     font-size: 1.2rem;
   }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.4rem;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 1rem;
+  }
+  .family1__below__right .text222 {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 880px) {
@@ -63,6 +82,18 @@
   .feature__main__boxs__box p {
     margin-top: 10%;
     font-size: 1rem;
+  }
+  .family1__below__right__1__hukidashi__text p {
+    font-size: 1.2rem;
+  }
+  .family1__below__right__1 .family-ellipse1 {
+    width: 45%;
+  }
+  .family1__below__right__1 .family-ellipse1__box p {
+    font-size: 0.8rem;
+  }
+  .family1__below__right .text222 {
+    font-size: 1.4rem;
   }
 }
 
